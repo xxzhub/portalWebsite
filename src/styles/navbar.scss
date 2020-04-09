@@ -1,0 +1,37 @@
+@mixin col-xl($width:80%){
+  @media (min-width:2560px){
+    width: $width;
+  }
+}
+
+.navbar {
+    position: relative;
+  
+    .header-content {
+      display: flex;
+      justify-content:flex-end;
+      position: absolute;
+      right: 1%;
+      width: 26%;
+      top: 50%;
+      transform: translateY(-50%);
+
+      .header-login {
+        margin-left: 10px;
+      }
+      
+      .header-search {
+        width: 50%;
+        height: 26px;
+        
+      }
+      
+      .el-dropdown-link {
+        cursor: pointer;
+        color: #1b97d1;
+        font-size: 19px;
+      }
+    }
+    
+}
+

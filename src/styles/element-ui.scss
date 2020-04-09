@@ -1,0 +1,55 @@
+  .el-menu--horizontal>div>.el-submenu{
+    float: left;
+  }
+  .el-menu--horizontal>div>.el-menu-item {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+  }
+  .el-menu--horizontal {
+    margin-left: calc(18% + 160px);
+  }
+  .el-menu--horizontal>div>.el-submenu .el-submenu__icon-arrow {
+    position: static;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: -3px;
+  }
+  .el-menu--horizontal>div>.el-submenu .el-submenu__title {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+  }
+  .el-input-group__append {
+    background-color: #1886d1;
+    cursor: pointer;
+  }
+  *{
+    outline: none;
+  }
+
+  // dialog 字体
+
+  .el-dialog__title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+.animatedDely {
+    animation-delay: .5s;
+}
+.institution-search {
+  width: 20%;
+  position: absolute;
+  top: 1%;
+  right: 2%;
+}
+.institution-all {
+  position: absolute;
+  top: 1%;
+  right: 23%;
+}
